@@ -15,11 +15,11 @@ data ends
 
 
 
-code segment
-    assume ds:data , cs:code  
+code segment			;code segment
+    assume ds:data , cs:code  	
     
     start:
-          mov ax,data ;populating ds with starting address of data segment using ax
+          mov ax,data 		;populating ds with starting address of data segment using ax
           mov ds,ax
           mov ax,0h
           mov cx,7h
