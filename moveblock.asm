@@ -3,8 +3,8 @@
 ;prog info
 ;move one block of data to another
 data segment
-   block1 db    23h,45h,67h,56h,12h
-   block2 db    5dup(0) 
+   block1 db    23h,45h,67h,56h,12h    ;block1 or source block
+   block2 db    5dup(0)                ;block2 or destination block
 
 data ends
 
