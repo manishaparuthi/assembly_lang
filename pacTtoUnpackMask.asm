@@ -11,7 +11,7 @@ DATA ENDS
 
 
 
-CODE SEGMENT 
+CODE SEGMENT 		;code segment
     
     ASSUME  DS:DATA
     ASSUME  CS:CODE
